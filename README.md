@@ -6,7 +6,7 @@ Rust version: `1.31.0 or later`
 
 ## Chapter
 
-18. [Error hanling](ch18-error_handling/README.md)
+18. [Error hanling](ch18-error_handling/)
 
     1. [panic](ch18-error_handling/1-panic/README.md)
 
@@ -14,4 +14,4 @@ Rust version: `1.31.0 or later`
 
         2-1. [Combinators: map](ch18-error_handling/3-map_for_option/README.md)
 
-        2-2. [Combinators: and_then](ch18-error_handling/4-and_then_for_optio/README.md)
+        2-2. [Combinators: and_then](ch18-error_handling/4-and_then_for_option/README.md)
