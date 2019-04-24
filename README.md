@@ -18,3 +18,5 @@ Rust version: `1.31.0 or later`
 
     3. [Result](https://github.com/kaka-lin/rust-by-example/tree/master/ch18-error_handling/5-result)
 
+        3-1. [map for result](https://github.com/kaka-lin/rust-by-example/tree/master/ch18-error_handling/6-map_for_result)
+
