@@ -17,7 +17,9 @@ fn multiply(first_number_str: &str, second_number_str: &str) -> i32 {
     first_number * second_number
 }
 
-fn main() {
+use std::num::ParseIntError;
+
+fn main() -> Result<(), ParseIntError> {
     let version = vec![1, 2, 3, 4];
     for index in &version {
         match index {
@@ -35,11 +37,33 @@ fn main() {
         Err(e) => println!("error parsing header: {:?}", e),
     }
 
+    ////////////////////////////////////////////////////////
+    
     println!("\nmultiply(parse())");
     let twenty = multiply("10", "2");
     println!("double is {}", twenty);
 
     // unsuccessful case
-    let tt = multiply("t", "2");
-    println!("double is {}", tt);
+    //let tt = multiply("t", "2");
+    //println!("double is {}", tt);
+
+    ////////////////////////////////////////////////////////
+
+    let number_str = "10";
+    let number = match number_str.parse::<i32>() {
+        Ok(number)  => number,
+        Err(e) => return Err(e),
+    };
+    println!("{}", number);
+
+    let number_str = "t";
+    let number = match number_str.parse::<i32>() {
+        Ok(number)  => number,
+        Err(e) => return Err(e),
+    };
+    println!("{}", number);
+
+    ////////////////////////////////////////////////////////
+
+    Ok(())
 }

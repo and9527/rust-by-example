@@ -69,7 +69,31 @@ In the unsuccessful case, `parse()` leaves us with an error for `unwrap()` to `p
 
 To improve the quality of our error message, we should be more specific about the return type and consider explicitly handling the error.
 
+### Using `Result` in `main`
+
+The `Result` type can also be the return type of the `main` function.
+
+If an error occurs within the `main` function it will return an error code and print a debug representation of the error(Using the `Debug` trait).
+
+```rust
+use std::num::ParseIntError;
+
+fn main() -> Result<(),  ParseIntError> {
+    let number_str = "10";
+    let number = match number_str.parse::<i32>() {
+        Ok(number) => number,
+        Err(e) => return Err(e),
+    };
+
+    println!("{}", number);
+
+    Ok(())
+}
+```
+
 ---
+
+## Notes
 
 `Result<T, E>` is the type used for returning and `propagating errors`.
 
