@@ -13,7 +13,7 @@ Multiple `map()` calls can be chained together for even more flexibility.
 ```rust
 pub fn map<U, F>(self, f: F) -> Option<U>
 ```
-where F: [FnOnce(T)](#jump) -> U
+where F: [FnOnce(T)](#jump) -> U,
 
 Maps an `Option<T>` to `Option<T>` by applying a function o a contained value.
 
