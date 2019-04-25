@@ -20,3 +20,5 @@ Rust version: `1.31.0 or later`
 
         3-1. [map for result](https://github.com/kaka-lin/rust-by-example/tree/master/ch18-error_handling/6-map_for_result)
 
+        3-2. [aliases for Result](https://github.com/kaka-lin/rust-by-example/tree/master/ch18-error_handling/7-aliases_for_result)
+
