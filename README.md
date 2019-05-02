@@ -25,3 +25,7 @@ Rust version: `1.31.0 or later`
         3-3. [Early returns](https://github.com/kaka-lin/rust-by-example/tree/master/ch18-error_handling/8-early_returns)
 
         3-4. [Introducing ?](https://github.com/kaka-lin/rust-by-example/tree/master/ch18-error_handling/9-introducing_question_mark)
+    
+    4. [Multiple error types](https://github.com/kaka-lin/rust-by-example/tree/master/ch18-error_handling/10-multiple_error_types)
+
+        4-1. [Pulling Results out of Option](https://github.com/kaka-lin/rust-by-example/tree/master/ch18-error_handling/11-pulling_results_out_of_option)
