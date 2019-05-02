@@ -6,6 +6,18 @@ Rust version: `1.31.0 or later`
 
 ## Chapter
 
+16. [Traits](https://github.com/kaka-lin/rust-by-example/tree/master/ch16-traits)
+
+    1. [Derive]
+
+    2. [Operator Overloading]
+
+    3. [Drop]
+
+    4. [Iterators](https://github.com/kaka-lin/rust-by-example/tree/master/ch16-traits/4-iterators)
+
+    4. [Clone]
+
 18. [Error hanling](https://github.com/kaka-lin/rust-by-example/tree/master/ch18-error_handling)
 
     1. [panic](https://github.com/kaka-lin/rust-by-example/tree/master/ch18-error_handling/1-panic)
@@ -30,12 +42,12 @@ Rust version: `1.31.0 or later`
 
         4-1. [Pulling Results out of Options](https://github.com/kaka-lin/rust-by-example/tree/master/ch18-error_handling/11-pulling_results_out_of_options)
 
-        4-2. [Defining an error type]()
+        4-2. [Defining an error type]
 
-        4-3. [Boxing errors]()
+        4-3. [Boxing errors]
 
-        4-4. [Other uses of ?]()
+        4-4. [Other uses of ?]
 
-        4-5. [Wrapping errors]()
+        4-5. [Wrapping errors]
 
     5. [Iterating over Results](https://github.com/kaka-lin/rust-by-example/tree/master/ch18-error_handling/16-iterating_over_results)
