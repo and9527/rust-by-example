@@ -29,3 +29,13 @@ Rust version: `1.31.0 or later`
     4. [Multiple error types](https://github.com/kaka-lin/rust-by-example/tree/master/ch18-error_handling/10-multiple_error_types)
 
         4-1. [Pulling Results out of Options](https://github.com/kaka-lin/rust-by-example/tree/master/ch18-error_handling/11-pulling_results_out_of_options)
+
+        4-2. [Defining an error type]()
+
+        4-3. [Boxing errors]()
+
+        4-4. [Other uses of ?]()
+
+        4-5. [Wrapping errors]()
+
+    5. [Iterating over Results](https://github.com/kaka-lin/rust-by-example/tree/master/ch18-error_handling/16-iterating_over_results)
