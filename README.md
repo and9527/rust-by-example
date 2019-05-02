@@ -18,6 +18,8 @@ Rust version: `1.31.0 or later`
 
     4. [Clone]
 
+17. [macro_rules!]
+
 18. [Error hanling](https://github.com/kaka-lin/rust-by-example/tree/master/ch18-error_handling)
 
     1. [panic](https://github.com/kaka-lin/rust-by-example/tree/master/ch18-error_handling/1-panic)
