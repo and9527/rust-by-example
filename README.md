@@ -22,3 +22,6 @@ Rust version: `1.31.0 or later`
 
         3-2. [aliases for Result](https://github.com/kaka-lin/rust-by-example/tree/master/ch18-error_handling/7-aliases_for_result)
 
+        3-3. [Early returns](https://github.com/kaka-lin/rust-by-example/tree/master/ch18-error_handling/8-early_returns)
+
+        3-4. [Introducing ?](https://github.com/kaka-lin/rust-by-example/tree/master/ch18-error_handling/9-introducing_question_mark)
