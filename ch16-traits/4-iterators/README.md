@@ -47,15 +47,14 @@ fn fibonacci() -> Fibonacci {
 
 ```rust 
 pub trait IntoIterator
+where
+    <Self::IntoIter as Iterator>::Item == Self::Item,
 {
     type Item;
     type IntoIter: Iterator;
     fn into_iter(self) -> Self::IntoIter;
 }
 ```
-
-where
-    `<Self::IntoIter as Iterator>::Item == Self::Item`,
 
 Conversion into an `Interator`.
 
