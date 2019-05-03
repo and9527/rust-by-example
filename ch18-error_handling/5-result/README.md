@@ -78,6 +78,7 @@ If an error occurs within the `main` function it will return an error code and p
 ```rust
 use std::num::ParseIntError;
 
+// () is the unit type, analogous to a void return type in other languages.
 fn main() -> Result<(),  ParseIntError> {
     let number_str = "10";
     let number = match number_str.parse::<i32>() {
@@ -91,11 +92,45 @@ fn main() -> Result<(),  ParseIntError> {
 }
 ```
 
----
-
 ## Notes
 
 `Result<T, E>` is the type used for returning and `propagating errors`.
+
+---
+
+## Primitive Type `unit`
+
+The `()` type, sometimes called "unit" ot "nil".
+
+The `()` type has exactly one value `()`, and is uesd when there is no other meaningful value that could be returnded.
+
+`()` is most commonly seen implicitly: functions whthout a  `-> ...` implicitly have return type `()`, that is, these are equivalent:
+
+```rust
+fn long() -> () {}
+
+fn short() {}
+```
+
+The semicolon `;` can be used to discard the result of an expression at the end of a block, making the expression (and thus the block) evaluate to `()`. For example,
+
+```rust
+fn returns_i64() -> i64 {
+    li64
+}
+
+fn returns_unit() {
+    li64;
+}
+
+let is_i64 = {
+    returns_i64()
+};
+
+let is_unit = {
+    returns_i64();
+};
+```
 
 
 
