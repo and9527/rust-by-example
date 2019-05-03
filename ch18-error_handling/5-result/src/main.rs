@@ -19,6 +19,7 @@ fn multiply(first_number_str: &str, second_number_str: &str) -> i32 {
 
 use std::num::ParseIntError;
 
+// () is the unit type, analogous to a void return type in other languages.
 fn main() -> Result<(), ParseIntError> {
     let version = vec![1, 2, 3, 4];
     for index in &version {
