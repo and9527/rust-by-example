@@ -12,6 +12,8 @@ Before you to read chapter 10, 11, and 12, you can read [module system](https://
 
     1. [Visibility](https://github.com/kaka-lin/rust-by-example/tree/master/ch10-modules/1-visibility)
 
+    2. [Struct visibility](https://github.com/kaka-lin/rust-by-example/tree/master/ch10-modules/2-struct_visibility)
+
 11. [Crates](https://github.com/kaka-lin/rust-by-example/tree/master/ch11-crates)
 
 12. [Cargo](https://github.com/kaka-lin/rust-by-example/tree/master/ch12-cargo)
