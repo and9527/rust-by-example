@@ -8,11 +8,13 @@ Rust version: `1.31.0 or later`
 
 Before you to read chapter 10, 11, and 12, you can read [module system](https://github.com/kaka-lin/rust-by-example/tree/master/module_system) first.
 
-10. [Modules]()
+10. [Modules](https://github.com/kaka-lin/rust-by-example/tree/master/ch10-modules)
 
-11. [Crates]()
+    1. [Visibility](https://github.com/kaka-lin/rust-by-example/tree/master/ch10-modules/1-visibility)
 
-12. [Cargo]()
+11. [Crates](https://github.com/kaka-lin/rust-by-example/tree/master/ch11-crates)
+
+12. [Cargo](https://github.com/kaka-lin/rust-by-example/tree/master/ch12-cargo)
 
 13.
 
