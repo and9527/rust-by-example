@@ -6,6 +6,20 @@ Rust version: `1.31.0 or later`
 
 ## Chapter
 
+Before you to read chapter 10, 11, and 12, you can read [module system](https://github.com/kaka-lin/rust-by-example/tree/master/module_system) first.
+
+10. [Modules]()
+
+11. [Crates]()
+
+12. [Cargo]()
+
+13.
+
+14.
+
+15.
+
 16. [Traits](https://github.com/kaka-lin/rust-by-example/tree/master/ch16-traits)
 
     1. [Derive]
