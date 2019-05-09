@@ -20,6 +20,8 @@ Before you to read chapter 10, 11, and 12, you can read [module system](https://
 
     5. [File hierarchy](https://github.com/kaka-lin/rust-by-example/tree/master/ch10-modules/5-file_hierarchy)
 
+    6. [pub use(re-exporting)](https://github.com/kaka-lin/rust-by-example/tree/master/ch10-modules/6-pub_use)
+
 11. [Crates](https://github.com/kaka-lin/rust-by-example/tree/master/ch11-crates)
 
 12. [Cargo](https://github.com/kaka-lin/rust-by-example/tree/master/ch12-cargo)
