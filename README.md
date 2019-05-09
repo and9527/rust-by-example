@@ -26,7 +26,7 @@ Before you to read chapter 10, 11, and 12, you can read [module system](https://
 
     1. [Library](https://github.com/kaka-lin/rust-by-example/tree/master/ch11-crates/1-library)
 
-    1. [extern crate](https://github.com/kaka-lin/rust-by-example/tree/master/ch11-crates/1-extern_crate)
+    1. [extern crate](https://github.com/kaka-lin/rust-by-example/tree/master/ch11-crates/2-extern_crate)
 
 12. [Cargo](https://github.com/kaka-lin/rust-by-example/tree/master/ch12-cargo)
 
